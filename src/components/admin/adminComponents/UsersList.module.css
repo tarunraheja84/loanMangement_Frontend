@@ -1,0 +1,15 @@
+.tableContainer {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  border-radius: 5px;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  background-color: white;
+}
+
+.actionButtons > * {
+  margin: 0 20px;
+}

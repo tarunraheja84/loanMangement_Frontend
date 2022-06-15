@@ -1,0 +1,129 @@
+body {
+  font-family: lato;
+  font-weight: 300;
+  background-color: #082f58;
+  background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
+  color: whitesmoke;
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 20%;
+  font-weight: bold;
+}
+
+.regfrom {
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  height: 80vh;
+  background-color: rgb(240, 240, 240);
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.493) 0px 15px 15px,
+    rgba(0, 0, 0, 0.5) 0px 8px 10px;
+}
+
+a {
+  color: #001d3d;
+}
+
+.c1 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: start;
+  color: white;
+}
+.cont {
+  margin: 20px;
+}
+.loginForm {
+  width: 35%;
+  /* background-color: white; */
+  /* height: 55vh; */
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+.form {
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  height: fit-content;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.493) 0px 15px 15px,
+    rgba(0, 0, 0, 0.5) 0px 8px 10px;
+}
+.main {
+  justify-content: space-evenly;
+  width: fit-content;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+.explanation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 80px;
+}
+.tc {
+  color: black;
+  text-align: center;
+  background-color: #727b9123;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 70%;
+  }
+  .content {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+  }
+  .loginForm {
+    width: 90%;
+    margin: auto;
+  }
+  .explanation {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* --------------------------------------------------------- */
+
+/* 
+  
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: var(--blue);
+  } */

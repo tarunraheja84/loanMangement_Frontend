@@ -1,0 +1,169 @@
+/* body{
+    background-color: #f0eff43b;
+} */
+.maincont {
+  display: flex;
+}
+.detailing {
+  padding: 25px;
+  position: absolute;
+  top: 25%;
+}
+.contentloan {
+  font-family: "lato";
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 15px 15px, rgba(0, 0, 0, 1) 0px 8px 10px;
+  display: flex;
+  align-items: center;
+}
+.desc {
+  background-color: #f0eff4e7;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 0px 0px 10px;
+  /* text-align: center; */
+  /* justify-content: start; */
+  /* align-items: center; */
+}
+.desc img {
+  box-shadow: rgba(0, 0, 0, 0.493) 0px 10px 10px, rgba(0, 0, 0, 0.5) 0px 4px 5px;
+  background-color: white;
+  height: 250px;
+}
+.loanform {
+  width: 65%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.493) 0px 15px 15px,
+    rgba(0, 0, 0, 0.5) 0px 8px 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form1 {
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  height: 55vh;
+  /* background-color: white; */
+  border-radius: 10px 10px 10px 10px;
+  height: 100%;
+}
+.loaninner {
+  width: 70%;
+  margin: auto;
+}
+.inputform {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.inputLoan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+  justify-content: center;
+}
+.text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -10px;
+}
+.details1,
+.details2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.typeOfCustomer {
+  display: flex;
+  /* flex-direction: row; */
+}
+.phone {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.drop {
+  display: flex;
+  justify-content: space-between;
+}
+.accountType,
+.loanType {
+  width: 45%;
+  margin-top: 20px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+}
+select {
+  font-size: 15px;
+  padding: 8px;
+  /* border: 2px solid #7b0d1e; */
+}
+.mainpage {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .maincont {
+    flex-direction: column;
+  }
+  .detailing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    top: 0%;
+  }
+  .detailing img {
+    margin: auto;
+  }
+  .form1 {
+    border-radius: 0%;
+  }
+  .contentloan {
+    margin-top: 20px;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    border-radius: 0px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+  }
+  .desc {
+    width: 100%;
+  }
+  .inputform,
+  .loanform,
+  .loaninner {
+    width: 100%;
+  }
+  .form1 {
+    height: auto;
+    background-color: white;
+  }
+  .desc img {
+    height: 300px;
+  }
+  .inputLoan {
+    box-shadow: rgba(0, 0, 0, 0.493) 0px 10px 10px,
+      rgba(0, 0, 0, 0.5) 0px 4px 5px;
+    padding: 10px;
+    margin-left: 0px;
+  }
+}
